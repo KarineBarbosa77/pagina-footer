@@ -79,23 +79,6 @@ button{
 }
 
 
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10%;
-    align-items: flex-end;
-    margin-top: 100px; /*O conteudo fica mais abaixo da tela*/
-}
-
-
-/*Rodapé*/
-
-footer div ul li a {
-    text-decoration: none;
-}
-
-
 
 /* Estilos para os campos de entrada */
 input[type="text"],
@@ -115,6 +98,25 @@ label {
     display: block; /* Faz com que os labels fiquem em linha verticalmente */
     margin-bottom: 6px; /* Espaçamento inferior entre os labels */
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    align-items: flex-end;
+    margin-top: 100px; /*O conteudo fica mais abaixo da tela*/
+}
+
+
+/*Rodapé*/
+
+footer div ul li a {
+    text-decoration: none;
+}
+
+
+
 
 .f1 ul, .f2 ul, .f3 ul {
     list-style-type: none; /* Remove os marcadores de lista */
