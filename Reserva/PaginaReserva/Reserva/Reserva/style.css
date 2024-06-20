@@ -1,0 +1,143 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px; /*Aumenta o tamanho da fonte*/
+    
+}
+
+header h1 {
+    text-align: center;
+
+}
+
+
+header{
+    background-image: url('imagens/sky-2609976_1280.jpg');
+    height: 577px;
+}
+
+header nav ul{
+    list-style: none;
+    padding: 30px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    color: #0056b3;
+}
+
+a:visited{
+    color:#fdfeff
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 10px; /*espaçamento dos itens*/
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;
+    font-style: italic;
+}
+
+
+form{
+    display: block;
+}
+
+
+
+input{
+    color: white;
+}
+
+
+button{
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 10px 70px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    align-items: flex-end;
+    margin-top: 100px; /*O conteudo fica mais abaixo da tela*/
+}
+
+
+/*Rodapé*/
+
+footer div ul li a {
+    text-decoration: none;
+}
+
+
+
+/* Estilos para os campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px; /* Espaçamento interno para o texto dentro do input */
+    margin-bottom: 20px; /* Espaçamento inferior entre os campos */
+    border: 1px solid white; /* Borda branca */
+    border-radius: 9px;
+    box-sizing: border-box; 
+    background-color: #000000; 
+}
+
+/* Estilos para os labels */
+label {
+    display: block; /* Faz com que os labels fiquem em linha verticalmente */
+    margin-bottom: 6px; /* Espaçamento inferior entre os labels */
+}
+
+.f1 ul, .f2 ul, .f3 ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    
+}
+
+.midia ul li{
+    display: inline-block;
+}
+
+
+
+
+.copy{
+    margin-top: 100px; /*O conteudo fica mais abaixo da tela*/
+    text-align: center;
+}
+
+.copy a{
+    margin-right: 15px;/*afasta os itens*/
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+}
