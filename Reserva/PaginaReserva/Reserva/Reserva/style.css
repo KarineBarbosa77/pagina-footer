@@ -99,6 +99,10 @@ label {
     margin-bottom: 6px; /* Espaçamento inferior entre os labels */
 }
 
+
+
+/*Rodapé*/
+
 .container{
     display: flex;
     flex-direction: row;
@@ -108,8 +112,6 @@ label {
     margin-top: 100px; /*O conteudo fica mais abaixo da tela*/
 }
 
-
-/*Rodapé*/
 
 footer div ul li a {
     text-decoration: none;
