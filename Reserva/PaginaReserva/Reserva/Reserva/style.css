@@ -109,22 +109,32 @@ input[type="text"],
 input[type="email"],
 input[type="tel"] {
     color: white;
-    width: 100%;
+    width: 99%; /*arrumar a largura do input*/
     padding: 8px; /* Espaçamento interno para o texto dentro do input */
-    margin-bottom: 20px; /* Espaçamento inferior entre os campos */
+    margin-bottom: 18px; /* Espaçamento inferior entre os campos */
     border: 1px solid white; /* Borda branca */
     border-radius: 9px;
     box-sizing: border-box; 
     background-color: #000000; 
     align-items: center;
 }
+
+ /*arrumar a largura do input*/
+.campo input[type="text"] {
+    width: 428px; /* Defina o tamanho desejado aqui */
+}
+
 label {
     display: block; /* Faz com que os labels fiquem em linha verticalmente */
     margin-bottom: 6px; /* Espaçamento inferior entre os labels */
 }
 
+
+
+
 .privacidade{
-    margin-bottom: 40px;
+    margin-bottom: 70px;
+
 }
 
 .privacidade input[type="checkbox"] {
@@ -134,7 +144,7 @@ label {
     margin-right: 10px; /* margem à direita para separar do texto */
     vertical-align: middle; /* alinhar verticalmente com o texto */
     position: relative;
-    top: 3px; /* ajuste fino para alinhar melhor com o texto */
+    top: -1px; /* ajuste fino para alinhar melhor com o texto */
 }
 
 
@@ -170,11 +180,12 @@ button{
     width: 100%;
     max-width: 200px;
     margin: 20px auto 0;
+    transition: background-color 0.3s ease; /* Adiciona transição suave na mudança de cor */
 }
 
 
-button:hover{
-
+button:hover {
+    background-color: rgb(11, 6, 91); /* Cor que o botão terá ao passar o mouse por cima */
 }
 
 
