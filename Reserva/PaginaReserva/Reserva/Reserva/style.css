@@ -1,13 +1,27 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: sans-serif;
     background-color: black;
     color: white;
+    font-size: 1em;
+    justify-content: center;
 }
 
 
 h1{
     text-align: center;
     font-size: 50px; /*Aumenta o tamanho da fonte*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 
@@ -44,7 +58,7 @@ a:visited{
 header nav ul li a{
     color: white;
     text-decoration: none;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     margin-right: 10px; /*espaçamento dos itens*/
     
@@ -54,19 +68,93 @@ h2{
     text-align: center;
     font-size: 32px;
     font-style: italic;
+    margin-top: 50px;
 }
 
 
-form{
-    display: block;
+
+form {
+    max-width: 1000px; /* Define a largura máxima do formulário */
+    margin: auto; /* Centraliza horizontalmente */
+    padding: 40px; /* Adiciona um espaço interno ao redor do formulário */
 }
 
 
+fieldset{
+    border: 0;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+
+.campo{
+    padding-right: 1em;
+}
 
 input{
-    color: white;
+    border-radius: 6px;
+    font-size: 1em;
+
 }
 
+
+.campo{
+    margin-bottom: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    color: white;
+    width: 100%;
+    padding: 8px; /* Espaçamento interno para o texto dentro do input */
+    margin-bottom: 20px; /* Espaçamento inferior entre os campos */
+    border: 1px solid white; /* Borda branca */
+    border-radius: 9px;
+    box-sizing: border-box; 
+    background-color: #000000; 
+    align-items: center;
+}
+label {
+    display: block; /* Faz com que os labels fiquem em linha verticalmente */
+    margin-bottom: 6px; /* Espaçamento inferior entre os labels */
+}
+
+.privacidade{
+    margin-bottom: 40px;
+}
+
+.privacidade input[type="checkbox"] {
+    /* Estilizando a caixa de seleção */
+    width: 20px; /* largura */
+    height: 20px; /* altura */
+    margin-right: 10px; /* margem à direita para separar do texto */
+    vertical-align: middle; /* alinhar verticalmente com o texto */
+    position: relative;
+    top: 3px; /* ajuste fino para alinhar melhor com o texto */
+}
+
+
+.privacidade input[type="checkbox"]::before {
+    content: '';
+    display: inline-block;
+    width: 20px; /* largura */
+    height: 20px; /* altura */
+    border: 1px solid #ffffff; /* borda da caixa de seleção */
+    border-radius: 2px; /* borda arredondada */
+    background-color: #000000; /* cor de fundo */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.privacidade input[type="checkbox"]:checked::before {
+    background-color: #ed0707e9; /* cor de fundo quando marcado */
+    border-color: #000000; /* cor da borda quando marcado */
+}
 
 button{
     background-color: blue;
@@ -75,30 +163,19 @@ button{
     font-size: 16px;
     border-radius: 4px;
     font-weight: bold;
-    padding: 10px 70px;
-}
-
-
-
-/* Estilos para os campos de entrada */
-input[type="text"],
-input[type="email"],
-input[type="tel"] {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: block;
     width: 100%;
-    padding: 8px; /* Espaçamento interno para o texto dentro do input */
-    margin-bottom: 20px; /* Espaçamento inferior entre os campos */
-    border: 1px solid white; /* Borda branca */
-    border-radius: 9px;
-    box-sizing: border-box; 
-    background-color: #000000; 
+    max-width: 200px;
+    margin: 20px auto 0;
 }
 
-/* Estilos para os labels */
-label {
-    display: block; /* Faz com que os labels fiquem em linha verticalmente */
-    margin-bottom: 6px; /* Espaçamento inferior entre os labels */
-}
 
+button:hover{
+
+}
 
 
 /*Rodapé*/

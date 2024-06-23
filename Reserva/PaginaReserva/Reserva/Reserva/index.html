@@ -27,46 +27,41 @@
         <h2>Cadastro</h2>
     </div>
 
-           <form>
-               <div class="formulario">
-                    <div class="campo campo-em-linha" > 
-                        <div class="">
-                        
-                            <label for="nome">Nome*</label>
-                            <input type="text" name="nome" id="nome" required>
-                        </div>
-                        <div class="">
-                            <label for="sobrenome">Sobrenome*</label>
-                            <input type="text" name="sobrenome" id="sobrenome" required>
-                        </div>
-                    </div>
-                    <div class="campo">
-                        <label for="email">Email*</label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    <div class="campo">
-                        <label for="celular">Celular*</label>
-                        <input type="tel" name="nome" id="nome" required>
-                    </div>
-                    <div class="campo">
-                        <label for="">País*</label>
-                        <input type="text" name="pais" id="pais" required>
-                        <label for="cidade">Cidade*</label>
-                        <input type="text" name="cidade" id="cidade" required>
-                    </div>
-                    <div class="campo">
-                        <label for="">Endereço*</label>
-                        <input type="text" name="endereco" id="endereco" required>
-                    </div>
-                       
-                </div>
-           </form>
-
-         <p class="privacidade"><input type="checkbox">Clique para confirmar o seu consentimento com nossa <a href="privacidade">Política de Privacidade</a>.</p>
-
-         <button class="botao">Confirmar</button>
-
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="campo">
+            <label for="celular">Celular</label>
+            <input type="tel" name="celular" id="celular">
+        </div>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="pais">País</label>
+                <input type="text" name="pais" id="pais">
+            </div>
+            <div class="campo">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade">
+            </div>
+        </fieldset>
+        <p class="privacidade"><input type="checkbox">Clique para confirmar o seu consentimento com nossa <a href="privacidade">Política de Privacidade</a>.</p>
+        <button>Confirmar</button>
         
+
+      </form>
+
             <footer>
                 <div class="container">
                     <div class="f1">
