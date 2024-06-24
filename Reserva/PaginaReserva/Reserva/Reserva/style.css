@@ -209,6 +209,10 @@ footer div ul li a {
     padding: 0; /* Remove o preenchimento padrão da lista */
 }
 
+.f2 ul{
+    margin-bottom: 18px;
+}
+
 .midia ul li{
     display: inline-block;
 }
