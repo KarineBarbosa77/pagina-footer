@@ -71,7 +71,7 @@ h2{
     margin-top: 50px;
 }
 
-
+/* ------------------ Header ------------------ */
 
 form {
     max-width: 1000px; /* Define a largura máxima do formulário */
@@ -189,7 +189,7 @@ button:hover {
 }
 
 
-/*Rodapé*/
+/* ------------------- Rodapé -------------------*/
 
 .container{
     display: flex;
