@@ -204,14 +204,20 @@ footer div ul li a {
     text-decoration: none;
 }
 
-.f1 ul, .f2 ul, .f3 ul {
-    list-style-type: none; /* Remove os marcadores de lista */
-    padding: 0; /* Remove o preenchimento padrão da lista */
+footer a{
+    color: white;
 }
 
-.f2 ul{
-    margin-bottom: 18px;
+footer a:hover {
+    color: blue;
 }
+
+
+.f1 ul, .f2 ul, .f3 ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */  
+}
+
 
 .midia ul li{
     display: inline-block;
