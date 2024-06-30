@@ -12,6 +12,7 @@ body{
     color: white;
     font-size: 1em;
     justify-content: center;
+    background: linear-gradient(to bottom, #6B21F8, #AB90DD);
 }
 
 
@@ -112,10 +113,10 @@ input[type="tel"] {
     width: 99%; /*arrumar a largura do input*/
     padding: 8px; /* Espaçamento interno para o texto dentro do input */
     margin-bottom: 18px; /* Espaçamento inferior entre os campos */
-    border: 1px solid white; /* Borda branca */
+    border: 2px solid white; /* Borda branca */
     border-radius: 9px;
     box-sizing: border-box; 
-    background-color: #000000; 
+    background-color: transparent;
     align-items: center;
 }
 
